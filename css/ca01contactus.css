@@ -1,0 +1,90 @@
+form < fieldset.enquiryform{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px; 
+    margin: 10px; 
+}
+label{
+    display:inline-block;
+    width: 100%;
+}
+input[type="text"]{
+    width: 30%;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 240px;
+    color: darkgoldenrod;
+    position: absolute;
+    left: 43%;
+}
+legend{
+    color: white;
+    background-color: darkgoldenrod;
+}
+textarea{
+    display: block;
+    width: 90%;
+    height: 100px;
+}
+h1 > img{
+    border: 30px;
+    border-style: groove;
+    border-width: 15px;
+    border-color: rgb(255, 219, 88);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+div.locationpannel{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    text-align: center;
+    color: rgb(255, 219, 88);
+}
+div.locationpannel :active{
+    color:rgb(255, 219, 88);
+}
+div.locationpannel :hover{
+    color:rgb(255, 219, 88);
+}
+div.locationpannel :visited{
+    color:rgb(255, 219, 88);
+}
+div.locationpannel > h3{
+    text-decoration: underline;
+}
+div.phonepannel{
+    position: absolute;
+    left: 61%;
+    top: 35%;
+    text-align: center;
+    color: rgb(255, 219, 88);
+}
+div.phonepannel > h3{
+    text-decoration: underline;
+}
+div.socialmediapannel{
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    text-align: center;
+    color: rgb(255, 219, 88);
+}
+div.socialmediapannel > h3{
+    text-decoration: underline;
+}
+.socmedicon{
+    width: 30%;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    height: 30px;
+    margin-top: 30px; 
+    clear: both; 
+    padding-bottom: 2px; 
+}

@@ -1,0 +1,50 @@
+div.movie{
+    position: absolute;
+    left: 255px;
+    bottom: 30%;
+    text-align: center;
+    border: 30px;
+    border-style: groove;
+    border-width: 30px;
+    border-color: rgb(255, 219, 88);
+}
+div.movie :hover{
+    color: #ffdb58;
+    cursor: pointer;
+    opacity: .7;
+}
+
+div.membership{
+    position: absolute;
+    left:570px;
+    bottom: 30%;
+    text-align: center;
+    border: 30px;
+    border-style: groove;
+    border-width: 30px;
+    border-color: rgb(255, 219, 88);
+}
+div.membership :hover{
+    color: #ffdb58;
+    cursor: pointer;
+    opacity: .7;
+}
+div.events{
+    position: absolute;
+    left: 885px;
+    bottom: 30%;
+    text-align: center;
+    border: 30px;
+    border-style: groove;
+    border-width: 30px;
+    border-color: rgb(255, 219, 88);
+}
+div.events :hover{
+    color: #ffdb58;
+    cursor: pointer;
+    opacity: .7;
+}
+footer{
+    position: relative;
+    top: 20px;
+}
